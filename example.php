@@ -1,6 +1,6 @@
 <?php
 //https://api.ultramsg.com/instance/messages?token=&page=1&limit=100
-new ultraMsgChatBot("ol0nehslt8vf17cm", "90023");
+new ultraMsgChatBot("xa69niactamdsx7u", "90023");
 
 class ultraMsgChatBot
 {
