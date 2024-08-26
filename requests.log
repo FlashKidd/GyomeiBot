@@ -1,0 +1,5749 @@
+## webhook json format 
+
+## To see how the received JSON will look this video : https://www.youtube.com/watch?v=kipBHDOsFKI
+
+array(3) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(4) "1150"
+  ["data"]=>
+  array(10) {
+    ["id"]=>
+    string(44) "false_12345292051@c.us_3EB01A01FDE1A4BDD3F7"
+    ["from"]=>
+    string(17) "12345292051@c.us"
+    ["to"]=>
+    string(16) "12345292050@c.us"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(1) "1"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["time"]=>
+    int(1640163658)
+  }
+}
+
+NULL
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_56BDF57E6D07275D7BBA7AACA56CBF30"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(2) "Hi"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720804379)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_F842FC6B0297F71B0C9AAEE891959022"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(2) "Hi"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720804533)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_62846580C36CFCD15E5ECFA0B4F73F77"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(6) "Me too"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720804541)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_EF459B400231C65C3032F5BD615F1E77"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(1) "2"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720804560)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_2B0DC0A07E206DCFE696AB15E68568DC"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(2) "Hi"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720804586)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_786EAFBA5E6EE9E27780F20A40D79166"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(11) "How are you"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720804595)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_399DA17E8E538F9508974530437382E2"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(2) "Hi"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720805124)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_DE952EAF2299B36B2F5FEEEC2FCCAAF6"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(2) "10"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720805132)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_9FDCB3B4B31A06B6B258CD8BB9464F69"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(1) "9"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720805144)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_90D7EFCDC6A7D3165D8168C95FCBAADC"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(2) "Vc"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720806477)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_D37C9C4EF0B71410D3B2726E659987E0"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(2) "Hj"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720806525)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_4DB69A0598818ADE20EBCCC3286E47EB"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(2) "Hi"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720806571)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_67C7AD0C2F9BAEEE38326717050BF417"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(2) "11"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720806577)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_2D4F333E05A7B57E4212148E6041396F"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(2) "12"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720806581)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_193A0A30AEB46CF75F909888134DE8F7"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(2) "Hy"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720806658)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_76D0637CC01E57DEC75BA039A8D325EB"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(2) "12"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720806663)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_94F114D28D2098B90B3DB762B5C2EAE1"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(2) "12"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720806701)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_CB991BAAFC49FF09CAA18F9675EEC239"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(2) "12"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720806719)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_CEBF0ABFCB24D480A68A4C9E1F4D4001"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(2) "12"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720806841)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_7F67F32CD7DFCB110A834C8BB6183C3F"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(1) "6"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720807006)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_20B9893EF2992D6C36C1131FBFA2361A"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(2) "12"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720808422)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(41) "false_27737943880@c.us_25181EC3FC0B539A7A"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(1) "2"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720809341)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(41) "false_27737943880@c.us_C010BF49F6AFF8E2B2"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(3) "jjd"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720809465)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(41) "false_27737943880@c.us_29A567DE6E1C5E8A62"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(2) "cc"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720809505)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_5E8324DF13506AB10C1AD80A404768B5"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(3) "Ggg"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720809589)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_5F69C359C9E7E3826251025114AA7D4B"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(2) "Gv"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720809613)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_74A62A6C3960045A11B56FA0FB95A1A5"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(2) "Fv"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720809656)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_978FA072099E13CF1C63349EDA0CC975"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(2) "Gg"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720809674)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_47ECEE5D3241462E2609DEF19C63337E"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(1) "2"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720809676)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_8CA0DA646C600096F55B574106EF9DD5"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(2) "Gf"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720809715)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_94DE0B9268D2D53D1D2D3866E83A50F5"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(3) "Cfg"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720809742)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_0BD5ECBABAF00F7CFAD7187CC60F2CE7"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(3) "Hhg"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720809751)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_B214E41B3E7FA4DEE8FDC3A882E84131"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(1) "2"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720809752)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_8E71683BAB7F656FF77029F777309932"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(3) "Bbg"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720809795)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_223EF4E07C45581220EF13DB1D5DDAFC"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(2) "Gg"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720809807)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_7C75FA2A490E2EC07EF9905198CCB96D"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(3) "Ggg"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720809883)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_087F39C6ED3812075BC3E79E2379CB65"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(2) "Gg"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720810046)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_3D63D357D38B716272BB07EA96E97240"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(2) "Fg"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720810073)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_74C38A151B0947C8DEA87ABB7D2F4358"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(115) "*Namu Amida Butsu 😭🙏📿*, *You have come to the right place😭🙏📿*
+*Below are my commands😭🙏📿*"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720810117)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_62D80B74D8E1BE4D7813D6427EB256CF"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(3) "`x`"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720810296)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_8F9F8EF382947D773CD5F7C787B09646"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(7) "```D```"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720810308)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_A4BDBB15F52E37D03806B063D8AEFFC1"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(16) "```ny nane``` gg"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720810320)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_3DC6606B87EE1BB6CED8DD148270A1B6"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(5) "Start"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720810444)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_504CFC37EDEB7FF0C7BE0191E2280989"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(5) "Start"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720810491)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_D5DABAF2EB3914D5AF20494D0EF13A08"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(5) "Start"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720810536)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_AC0C0FE9BF969ED430C44CA2829C4AE7"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(5) "Start"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720810609)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_4FD02F68398C45519B98E0E248EE5E19"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(2) "Gg"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720811211)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_7D5CEAF5D8854838F3785F0F9521D1B9"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(3) "Ggg"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720811280)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_58166A7C40A78AAFE7B283CF0ED7ED26"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(2) "Cd"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720811377)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_63DDC5BB8327026A934134323C5B8400"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(2) "Hh"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720811473)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_5C0F2920CB6FEC93568110475D86F30B"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(2) "Gg"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720811503)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_BCE89268D9F8237FD54461343D3A976F"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(2) "Gg"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720811521)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_8B41C49F889D4CB7B58609F5A49FFD70"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(5) "Start"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720812563)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_828B516BB746D567DF2973F9F0E190E7"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(2) "Vg"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720812640)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_32BB1A450DBBF1FE3AADA6855DB532B0"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(5) "Start"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720812665)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_2F857C95D577542341B226EEBDDAA569"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(5) "Start"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720813012)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_0428E5B2E89098BB922B4AB3AFA2C8B8"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(5) "Start"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720813084)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_09388212AA6B54EC8D0E8428E0523773"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(5) "Start"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720813127)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_7FEDB3D681F445B0276ED93A80F17802"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(2) "Gg"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720814594)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_65627A8263A2739DF064709A39EB5F2E"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(6) "tiktok"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720814600)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_1885B08E92AD21248FD27633F43C22C5"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(39) "tiktok https://vm.tiktok.com/ZMrDESddN/"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720814614)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_087E4651FB135823448B121C17493B0A"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(6) "tiktok"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720814653)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_673AA7059D459EDF04E6D305F3FC12DB"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(39) "tiktok https://vm.tiktok.com/ZMrDESddN/"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720814671)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_8E269E36F068ED6A388E4D59A65B42E9"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(2) "Hh"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720815341)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_C99608C9FC225BFA671427FAE89C3DB9"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(2) "Uu"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720815475)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_5CA49AD96A08E27972303488B9952069"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(2) "Gh"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720815901)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_3F8C7EC9AE9F32A8C1CE10CFEE88F0CC"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(2) "Hh"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720816198)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_BC7F28FFE8E2CFA90D0352B4A43DD75C"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(1) "H"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720816248)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_DCA14B4F61E131DB8E780BF84214A309"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(2) "Hi"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720816431)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_1C1C6E61438BE425FED3C3A6623A7EB5"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(2) "Hg"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720816894)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_2DC468EC98D306225414BA4F46C8548A"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(2) "Hi"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720817002)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_984F0A717307858FD44293B228BFF425"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(1) "2"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720817008)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_4021F444C3C29ED343DA1E0BE048F408"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(1) "2"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720817017)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_118950399381F04E1C9D36344D4BEC25"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(1) "7"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720817051)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_9A5BEEB2991A649B8772AA67F434352C"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(2) "Hi"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720817127)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_B5BB29E14D6AA598824817347516A5E8"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(2) "Ff"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720817149)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_F4CD6C8D23334AFFDC7104C76134C3F3"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(2) "Vv"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720817178)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_445DF73310838CC8C4B4A43C1AEC49C7"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(10) "tiktok ggd"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720817185)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_76A4DA1339D3C7C67982D01B125751DE"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(6) "tiktok"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720817193)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_DDDD076A6FF3329B4654D442A52B3193"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(1) "G"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720817196)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_9D2A24AA56FB8D624BBBFBA11415BED8"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(1) "3"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720817201)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_607180BA9FA5CAC9C82FD3E2B61AE612"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(6) "tiktok"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720817232)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_BFF8101CAF60929D1084FA021E53B582"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(2) "10"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720817238)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_DACC866BED7529F69B1FE9BC4589D5B1"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(1) "9"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720817261)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_EE5990727CC8C53787AC99825E8C1374"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(1) "H"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720817390)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_86E72C9F1BAEB3F85FE078F1D9BF028C"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(6) "tiktok"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720817394)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_4AA3A1EEA3487DE4FE530E84288AEBF5"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(14) "tiktok url.com"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720817403)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_3DC388C802787B6A7D8C2D575D32C64E"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(1) "6"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720817418)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_8C1B8BC96597D88A5D8093C7780C28BA"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(1) "V"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720817644)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_9BB72A334D4D8B10054F6F553FB7A542"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(1) "G"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720817697)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_231A3D819BA68935CEB8932A52038DAA"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(6) "tiktok"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720817702)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_BFF622AC2DE9FE05C1435B00BEEC9D3C"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(39) "tiktok https://vm.tiktok.com/ZMrDESddN/"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720817716)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_D76086CC88DF4CC3515B146CB387A264"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(6) "tiktok"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720817779)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_16D2D521DDC0F033CC3E1A93AFF2B2B5"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(1) "G"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720819437)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_7FAB80CFDD956F2FFE3DF7DD7C43DCB6"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(39) "tiktok https://vm.tiktok.com/ZMrDESddN/"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720819447)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_D97E743F48EDD3051B3E575A5C785FF3"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(1) "G"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720819657)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_CA34B6A4BE7659C2DF4F40F2A64222BC"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(39) "tiktok https://vm.tiktok.com/ZMrDESddN/"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720819670)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_E8D5EBE10B305C8977097CF6499BE64D"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(39) "tiktok https://vm.tiktok.com/ZMrDESddN/"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720820006)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_E07DA8B97CB7FB4BD256FF0C3923B303"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(39) "tiktok https://vm.tiktok.com/ZMrDESddN/"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720820589)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_728F78D558C089F62C8DC298D4B57E8C"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(1) "G"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720820595)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_C78A3E59C6C02F8C97B26257DACDF721"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(6) "tiktok"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720820602)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_E8DB838138FE98161A3FE03A56DA77F2"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(1) "G"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720820757)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_A12C315B33A3617DFBAC175B98902C94"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(6) "tiktok"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720820874)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_B255427684D764325026D188D71C3E3A"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(39) "tiktok https://vm.tiktok.com/ZMrDESddN/"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720820900)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_1C8EC0F5C63E62A220DFAEDB55899E85"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(39) "tiktok https://vm.tiktok.com/ZMrDESddN/"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720820923)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_822FB756BBB20AED27E93D7F29654DA0"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(6) "tiktok"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720820929)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_A26ACAFAF96B85486C3753741A16465C"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(39) "tiktok https://vm.tiktok.com/ZMrDESddN/"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720820936)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_4F4233F4B4CFE896FE1F89221088D9BC"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(6) "tiktok"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720821081)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_E2B5C2D466668E9754073DC6119A599F"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(39) "tiktok https://vm.tiktok.com/ZMrDESddN/"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720821087)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_E2B5C2D466668E9754073DC6119A599F"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(39) "tiktok https://vm.tiktok.com/ZMrDESddN/"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720821087)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_1AF72DB30FBF27C14C1EF1315E3FEAF5"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(39) "tiktok https://vm.tiktok.com/ZMrDESddN/"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720821302)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_660D868259574E599EEB8BD0EAC440C5"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(6) "tiktok"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720821329)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_010C9012DDD66B3BBAD9691F85A9E8EB"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(39) "tiktok https://vm.tiktok.com/ZMrDESddN/"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720821363)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_942CCE5D4F3FFA496873BD1E483A9B40"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(39) "tiktok https://vm.tiktok.com/ZMrDESddN/"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720821375)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_1CD19F78C7E780D6C33C24A70115BB0A"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(39) "tiktok https://vm.tiktok.com/ZMrDESddN/"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720821383)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_2A9CDE1D574C45FDC10BAF95F5F361CC"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(1) "5"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720821581)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_03C1077538B8953B173E3671124CA889"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(1) "6"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720821593)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_EFB7009A8A7CF00110F6C59544888EA0"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(39) "tiktok https://vm.tiktok.com/ZMryG937v/"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720821818)
+  }
+}
+
+array(5) {
+  ["event_type"]=>
+  string(16) "message_received"
+  ["instanceId"]=>
+  string(5) "90023"
+  ["id"]=>
+  string(0) ""
+  ["referenceId"]=>
+  string(0) ""
+  ["data"]=>
+  array(16) {
+    ["id"]=>
+    string(55) "false_27737943880@c.us_C009083072750B7C45F3739D1BDCCC08"
+    ["from"]=>
+    string(16) "27737943880@c.us"
+    ["to"]=>
+    string(16) "27607235495@c.us"
+    ["author"]=>
+    string(0) ""
+    ["pushname"]=>
+    string(15) "Gyomei Himejima"
+    ["ack"]=>
+    string(0) ""
+    ["type"]=>
+    string(4) "chat"
+    ["body"]=>
+    string(39) "tiktok https://vm.tiktok.com/ZMryG937v/"
+    ["media"]=>
+    string(0) ""
+    ["fromMe"]=>
+    bool(false)
+    ["self"]=>
+    bool(false)
+    ["isForwarded"]=>
+    bool(false)
+    ["isMentioned"]=>
+    bool(false)
+    ["quotedMsg"]=>
+    array(0) {
+    }
+    ["mentionedIds"]=>
+    array(0) {
+    }
+    ["time"]=>
+    int(1720821915)
+  }
+}
+
