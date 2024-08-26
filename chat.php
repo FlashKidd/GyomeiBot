@@ -56,7 +56,7 @@ function callChatGPT($apiKey, $prompt) {
 }
 
 // Replace YOUR_API_KEY with your actual OpenAI API key
-$apiKey = 'sk-proj-dbzdors6sjFUdpEAOfBDT3BlbkFJl5Y87YZ426SI5snZy8er';
+$apiKey = 'xx';
 $prompt = "Hello, how are you?";
 
 // Simple rate-limiting
