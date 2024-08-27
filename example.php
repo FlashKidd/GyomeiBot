@@ -153,7 +153,7 @@ private function clearState($userId) {
 
         );*/
         //$ima = file_get_contents('test.png');
-        $this->client->sendImageMessage($to, "https://67.207.90.206/GyomeiBo", "*Namu Amida Butsu 😭🙏📿, my name is Gyomei Himejima, and I only exist to serve people 😭🙏📿*\n\n*• Below are my commands •*\n\n-------------------------------------------\n*🤖 Command* - *ℹ️ Description*\n\n*```tiktok```* - *Download TikTok Videos.*\n*Usage:* ```tiktok https://vm.tiktok.com/ZMrDESddN/```\n\n*```chat```* - *Chat with ChatGPT.*\n*Usage:* ```chat how many days can a human being fast?```\n\n*```song```* - *Download music.*\n\n*Usage:* ```song https://open.spotify.com/track/6Kijtp0DB6VwcoJIw7PJ9W```\n\n*• About my creator •*\n*🆔 Facebook:* `FlashKidd`\n*🆔 Telegram:* `theFlashxD`");
+        $this->client->sendImageMessage($to, "http://67.207.90.206/GyomeiBot/test.PNG", "*Namu Amida Butsu 😭🙏📿, my name is Gyomei Himejima, and I only exist to serve people 😭🙏📿*\n\n*• Below are my commands •*\n\n-------------------------------------------\n*🤖 Command* - *ℹ️ Description*\n\n*```tiktok```* - *Download TikTok Videos.*\n*Usage:* ```tiktok https://vm.tiktok.com/ZMrDESddN/```\n\n*```chat```* - *Chat with ChatGPT.*\n*Usage:* ```chat how many days can a human being fast?```\n\n*```song```* - *Download music.*\n\n*Usage:* ```song https://open.spotify.com/track/6Kijtp0DB6VwcoJIw7PJ9W```\n\n*• About my creator •*\n*🆔 Facebook:* `FlashKidd`\n*🆔 Telegram:* `theFlashxD`");
     }
     private function fetchLeaderboardData() {
     $ch = curl_init();
