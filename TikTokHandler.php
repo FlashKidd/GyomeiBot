@@ -40,7 +40,7 @@ function getTikTokVideoUrl($url) {
             $filename = 'downloads/tiktok_' . time() . '.mp4';
 
             file_put_contents($filename, $video_data);
-            $link = "https://67.207.90.206/GyomeiBo/$filename";
+            $link = "http://67.207.90.206/GyomeiBo/$filename";
             $this->client->sendVideoMessage($to,$link,"Video downloaded successfully."); 
             @unlink($filename);
         } else {
